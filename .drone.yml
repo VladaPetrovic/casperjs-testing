@@ -1,3 +1,4 @@
 image: php5.4
 script:
+  - sleep 10
   - casperjs test googletesting.js
